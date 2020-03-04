@@ -52,8 +52,10 @@ export function party(number = Math.floor(Math.random() * 10)) {
       break;
     case 2:
       leftRightConfetti();
+      break;
     case 3:
       streakConfetti();
+      break;
     default:
       confetti();
   }

@@ -6,7 +6,7 @@ import { party } from "scripts";
 
 let socket: SocketIOClient.Socket;
 
-const ENDPOINT = "http://localhost:5000/";
+const ENDPOINT = "https://react-party.herokuapp.com/";
 
 const App: React.FC = () => {
   useEffect(() => {
