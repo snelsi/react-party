@@ -21,7 +21,7 @@ const App: React.FC = () => {
 
   return (
     <>
-      <Link href="https://github.com/snelsi" target="_blank" rel="noopener">
+      <Link href="https://github.com/snelsi/react-party" target="_blank" rel="noopener">
         <img src={gitGubIcon} alt="gitHub" />
       </Link>
       <PartyButton onClick={startParty}>
