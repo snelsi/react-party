@@ -24,11 +24,11 @@ const App: React.FC = () => {
       <Link href="https://github.com/snelsi" target="_blank" rel="noopener">
         <img src={gitGubIcon} alt="gitHub" />
       </Link>
-    <PartyButton onClick={startParty}>
-      <span role="img" aria-label="Let`s party!">
-        🎉
-      </span>
-    </PartyButton>
+      <PartyButton onClick={startParty}>
+        <span role="img" aria-label="Let`s party!">
+          🎉
+        </span>
+      </PartyButton>
     </>
   );
 };
@@ -39,6 +39,9 @@ const PartyButton = styled(Button)`
   margin: 0 auto;
   left: 0;
   right: 0;
+  & > span {
+    user-select: none;
+  }
 `;
 
 const Link = styled.a`
