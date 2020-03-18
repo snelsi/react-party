@@ -16,7 +16,7 @@
     "@types/react": "16.9.22",
     "@types/react-dom": "latest",
     "@types/socket.io-client": "^1.4.32",
-    "@types/styled-components": "5.0.0"
+    "@types/styled-components": "5.0.1"
   },
   "license": "Apache-2.0",
   "scripts": {
