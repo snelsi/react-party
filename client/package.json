@@ -6,7 +6,7 @@
     "canvas-confetti": "^1.1.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0",
+    "react-scripts": "3.4.1",
     "socket.io-client": "^2.3.0",
     "styled-components": "^5.0.1",
     "typescript": "^3.8.3"
