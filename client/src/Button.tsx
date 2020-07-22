@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Button = styled.button`
   --shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
-  background-color: #285aff;
+  background-color: #1261ff;
   border: none;
   border-radius: 12px;
   box-shadow: var(--shadow);
